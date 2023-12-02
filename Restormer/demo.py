@@ -23,6 +23,8 @@ import argparse
 from pdb import set_trace as stx
 import numpy as np
 
+torch.cuda.empty_cache()
+
 parser = argparse.ArgumentParser(description='Test Restormer on your own images')
 parser.add_argument('--input_dir', default='./demo/degraded/', type=str, help='Directory of input images or path of single image')
 parser.add_argument('--result_dir', default='./demo/restored/', type=str, help='Directory for restored results')
