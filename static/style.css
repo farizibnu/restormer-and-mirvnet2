@@ -1,347 +1,355 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 body {
-    background-image: url("img/orange.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    color: black;
-    font-family: 'Montserrat', sans-serif;
+  background-image: url("img/1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: black;
+  font-family: "Montserrat", sans-serif;
 }
 
 .navbar-custom {
-    margin: 20px 70px;
-    align-items: center;
-    align-content: center;
+  margin: 20px 70px;
+  align-items: center;
+  align-content: center;
 }
 
 .flex {
-    display: flex;
-    margin-top: 40px;
+  display: flex;
+  margin-top: 40px;
 }
 
 .menu {
-    display: flex;
-    margin-top: 50px;
+  display: flex;
+  margin-top: 50px;
 }
 
 .menu-section {
-    display: flex;
-    margin-bottom: 0;
+  display: flex;
+  margin-bottom: 0;
 }
 
 .result {
-    border-left: 2px solid rgb(182, 182, 182);
+  border-left: 2px solid rgb(182, 182, 182);
 }
 
 .nav-item:hover {
-    text-decoration: underline white;
+  text-decoration: underline white;
 }
 
 .sidebar {
-    overflow-y: auto;
-    height: 75vh;
+  overflow-y: auto;
+  height: 75vh;
 }
 
 .sidebar::-webkit-scrollbar-thumb {
-    border-radius:100px;
-    background: orangered;
+  border-radius: 100px;
+  background: #2d185b;
 }
 
 .sidebar::-webkit-scrollbar-track {
-    background-color: #e4e4e4;
-    border-radius: 100px;
+  background-color: #e4e4e4;
+  border-radius: 100px;
 }
 
 .btn-setting {
-    color: orangered;
-    border: 2px solid orangered;
-    background-color: white;
+  color: #2d185b;
+  border: 2px solid #2d185b;
+  background-color: white;
 }
 
 .btn-setting:hover {
-    background-color: orangered;
-    color: white;
+  background-color: #2d185b;
+  color: white;
 }
 
-.table td, .table th {
-    border: none;
+.table td,
+.table th {
+  border: none;
 }
 
 .card {
-    margin: auto;
-    margin: 5px;
-    border-radius: 10px;
+  margin: auto;
+  margin: 5px;
+  border-radius: 10px;
 }
 
 h2 {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 h3 {
-    margin-top: -50px;
-    margin-bottom: 20px;
-    font-size: 3rem;
-    font-weight: bold;
+  margin-top: -50px;
+  margin-bottom: 20px;
+  font-size: 3rem;
+  font-weight: bold;
 }
 
 .histogram {
-	font-size: 20px;
+  font-size: 20px;
 }
 
 .description {
-    padding-left: 80px;
-    color: white;
+  padding-left: 80px;
+  color: white;
 }
 
 .description h1 {
-    font-size: 5rem;
-    font-weight: bolder;
+  font-size: 5rem;
+  font-weight: bolder;
 }
 
 .lead {
-    margin-top: 30px;
-    width: 90%;
+  margin-top: 30px;
+  width: 90%;
 }
 
 .about-section {
-    display: flex;
-    text-align: center;
-    font-weight: 700;
-    color: white;
-    align-items: center;
-    margin: 100px 300px;
-    width: 1000px;
+  display: flex;
+  text-align: center;
+  font-weight: 700;
+  color: white;
+  align-items: center;
+  margin: 100px 300px;
+  width: 1000px;
 }
 
 .about-title {
-    text-align: center;
-    align-items: center;
-    color: white;
-    font-weight: 900;
+  text-align: center;
+  align-items: center;
+  color: white;
+  font-weight: 900;
 }
 
 .about-img {
-    border-radius: 50%;
-    border: 5px solid white;
-    width: 200px;
-    height: auto;
+  border-radius: 50%;
+  border: 5px solid white;
+  width: 200px;
+  height: auto;
 }
 
 .bottom-centered-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .margin-top-10 {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .margin-right-10 {
-    margin-right: 50px;
+  margin-right: 50px;
 }
 
 .margin-rl-0 {
-    margin-left: 0;
-    margin-right: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .input-group {
-    background-color: aqua;
-    padding: 10px;
+  background-color: aqua;
+  padding: 10px;
 }
 
 #inputGroupFile04 {
-    background-color: yellow;
-    align-items: center;
-    text-align: end;
-    padding: 10px;
+  background-color: yellow;
+  align-items: center;
+  text-align: end;
+  padding: 10px;
 }
 
 .container-fluid {
-    padding: 0;
+  padding: 0;
 }
 
 ::-webkit-scrollbar {
-    width: 10px;
-    border-radius: 100px;
+  width: 10px;
+  border-radius: 100px;
 }
 
 ::-webkit-scrollbar-track {
-    background-color: #e4e4e4;
-    border-radius: 100px;
+  background-color: #e4e4e4;
+  border-radius: 100px;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: orangered;
-    border-radius: 100px;
+  background-color: #2d185b;
+  border-radius: 100px;
 }
 
 /* ============================================= */
 body {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 .form-container {
-	display: flex;
-   	justify-content: center;
-	align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .upload-files-container {
-	background-color: #f7fff7;
-	width: 520px;
-	padding: 30px 60px;
-    margin: auto;
-	border-radius: 40px;
-	display: flex;
-   	align-items: center;
-   	justify-content: center;
-	flex-direction: column;
-	box-shadow: rgba(0, 0, 0, 0.24) 0px 10px 20px, rgba(0, 0, 0, 0.28) 0px 6px 6px;
+  background-color: #f7fff7;
+  width: 520px;
+  padding: 30px 60px;
+  margin: auto;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 10px 20px, rgba(0, 0, 0, 0.28) 0px 6px 6px;
 }
 .drag-file-area {
-	border: 2px dashed #f05b16;
-	border-radius: 40px;
-	margin: 10px 0 15px;
-	padding: 30px 50px;
-	width: 450px;
-	text-align: center;
+  border: 2px dashed #2d185b;
+  border-radius: 40px;
+  margin: 10px 0 15px;
+  padding: 30px 50px;
+  width: 450px;
+  text-align: center;
 }
 .drag-file-area .upload-icon {
-	font-size: 50px;
+  font-size: 50px;
 }
 .drag-file-area h3 {
-	font-size: 26px;
-	margin: 15px 0 25px -10px;
-    width: 370px;
+  font-size: 26px;
+  margin: 15px 0 25px -10px;
+  width: 370px;
 }
 .drag-file-area label {
-	font-size: 19px;
-    width: 350px;
+  font-size: 19px;
+  width: 350px;
 }
 .drag-file-area label .browse-files-text {
-	color: #f05b16;
-	font-weight: bolder;
-	cursor: pointer;
+  color: #2d185b;
+  font-weight: bolder;
+  cursor: pointer;
 }
 .browse-files span {
-	position: relative;
-	top: -25px;
+  position: relative;
+  top: -25px;
 }
 .default-file-input {
-	opacity: 0;
+  opacity: 0;
 }
 .cannot-upload-message {
-	background-color: #ffc6c4;
-	font-size: 17px;
-	display: flex;
-	align-items: center;
-	margin: 5px 0;
-	padding: 5px 10px 5px 30px;
-	border-radius: 5px;
-	color: #BB0000;
-	display: none;
+  background-color: #ffc6c4;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+  padding: 5px 10px 5px 30px;
+  border-radius: 5px;
+  color: #bb0000;
+  display: none;
 }
 @keyframes fadeIn {
-  0% {opacity: 0;}
-  100% {opacity: 1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
-.cannot-upload-message span, .upload-button-icon {
-	padding-right: 10px;
+.cannot-upload-message span,
+.upload-button-icon {
+  padding-right: 10px;
 }
 .cannot-upload-message span:last-child {
-	padding-left: 20px;
-	cursor: pointer;
+  padding-left: 20px;
+  cursor: pointer;
 }
 .file-block {
-	color: #f7fff7;
-	background-color: #df7818;
-  	transition: all 1s;
-	width: 390px;
-	position: relative;
-	display: none;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: center;
-	margin: 10px 0 15px;
-	padding: 10px 20px;
-	border-radius: 25px;
-	cursor: pointer;
+  color: #f7fff7;
+  background-color: #2d185b;
+  transition: all 1s;
+  width: 390px;
+  position: relative;
+  display: none;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0 15px;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
 }
 .file-info {
-	display: flex;
-	align-items: center;
-	font-size: 15px;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
 }
 .file-icon {
-	margin-right: 10px;
+  margin-right: 10px;
 }
-.file-name, .file-size {
-	padding: 0 3px;
+.file-name,
+.file-size {
+  padding: 0 3px;
 }
 .remove-file-icon {
-	cursor: pointer;
+  cursor: pointer;
 }
 .progress-bar {
-	display: flex;
-	position: absolute;
-	bottom: 0;
-	left: 4.5%;
-	width: 0;
-	height: 5px;
-	border-radius: 25px;
-	background-color: #4BB543;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 4.5%;
+  width: 0;
+  height: 5px;
+  border-radius: 25px;
+  background-color: #4bb543;
 }
 .upload-button {
-	font-family: 'Montserrat';
-	background-color: #f05b16;
-	color: #f7fff7;
-	display: flex;
-	align-items: center;
-	font-size: 18px;
-	border: none;
-	border-radius: 20px;
-	margin: 10px;
-	padding: 7.5px 50px;
-	cursor: pointer;
+  font-family: "Montserrat";
+  background-color: #2d185b;
+  color: #f7fff7;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  border: none;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 7.5px 50px;
+  cursor: pointer;
 }
 
 .game-board {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    max-width: 600px;
-    margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .card-inner {
-    width: 100%;
-    height: 100%;
-    transform-style: preserve-3d;
-    transition: transform 0.5s;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
 }
 
 .card.flipped .card-inner {
-    transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
 
-.card-front, .card-back {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    backface-visibility: hidden;
+.card-front,
+.card-back {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
 }
 
 .card-front {
-    background-size: cover;
+  background-size: cover;
 }
 
 .card-back {
-    background-color: #3498db;
-    transform: rotateY(180deg);
+  background-color: #3498db;
+  transform: rotateY(180deg);
 }

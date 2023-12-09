@@ -14,7 +14,7 @@ import torch.nn.functional as F
 import torchvision.transforms.functional as TF
 import os
 from runpy import run_path
-from skimage import img_as_ubyte
+from skimage import img_as_ubytey
 from natsort import natsorted
 from glob import glob
 import cv2
